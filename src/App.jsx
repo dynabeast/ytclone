@@ -25,7 +25,7 @@ function App() {
 
         <div className={`flex `}>
           <div className={`w-[${width}rem] h-full border`}>
-            <Sidebar/>
+            <Sidebar />
             {/* <Sidebar width={width} /> */}
           </div>
           <div className={`ml-[${width}] w-full h-full`}>
@@ -33,6 +33,7 @@ function App() {
           </div>
         </div>
       </div>
+      {/* jai shree ram */}
     </updateWidth.Provider>
   );
 }
