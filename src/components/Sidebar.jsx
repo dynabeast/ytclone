@@ -89,7 +89,7 @@ const Sidebar = () => {
                           {item[0]}
                         </h1>
                       </div>
-                      <li className="text-[1rem] ml-2">{item}</li>){" "}
+                      <li className="text-[1rem] ml-2">{item}</li>{" "}
                     </>
                   ) : (
                     <></>
