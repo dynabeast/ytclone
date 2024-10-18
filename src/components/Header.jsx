@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
-import ytlogo from "../assets/ytlogo.svg";
+import ytlogo from "../../public/ytlogo.svg";
 import ythamburgerIcon from "../assets/ythamburgerIcon.svg";
 import { Bell, Mic, Search } from "lucide-react";
 import createIcon from "../assets/createIcon.svg";
 import { updateWidth } from "../context/updateWidth";
 
 const Header = () => {
-  const {updateWidthhandle, setUpdateWidthHandle} = useContext(updateWidth);
+  const { updateWidthhandle, setUpdateWidthHandle } = useContext(updateWidth);
   const ontoggleHandler = () => {
     // setUpdateWidthHandle(!updateWidthhandle);
-      setUpdateWidthHandle((prevWidth) => (prevWidth === 5 ? 15 : 5));
+    setUpdateWidthHandle((prevWidth) => (prevWidth === 5 ? 15 : 5));
   };
   return (
     <div className="flex w-full h-[4rem] border justify-between items-center">
